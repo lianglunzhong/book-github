@@ -1,0 +1,65 @@
+.bk_important {
+    color: green;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+.bk_summary {
+    color: gray;
+    font-weight:bold;
+}
+
+
+.input-error {border:1px solid red;}
+
+.phone-error {color: red;display: none;}
+.password-error {color: red;display: none;}
+.confirm-password-error {color: red;display: none;}
+.code-error  {color: red;display: none;}
+
+.email-error {color: red;display: none;}
+.email-password-error {color: red;display: none;}
+.email-confirm-error {color: red;display: none;}
+.email-code-error  {color: red;display: none;}
+
+.add-like {color: red;}
+
+
+.bk_toptips {
+    background-color: #000;
+    opacity:0.6;
+    padding-top: 20px;
+    border: 1px solid #000;
+    border-radius: 15px; 
+    text-align: center;  
+    line-height: 40px;  
+    font-size: 16px;  
+    font-weight: bold; 
+    color: white; 
+    z-index:999;  
+    width: 200px;  
+    height: 120px;  
+    left:50%;  
+    top:50%;  
+    margin-left:-150px; 
+    margin-top:-80px;  
+    position:fixed;
+    position:absolute;
+    display: none;
+}  
+
+.ui.basic.table>thead>tr>th{
+    color: #969696;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    vertical-align:center;
+}
+
+.ui.basic.table>tbody>tr>td{
+    vertical-align:center;
+    line-height: 100px;
+}
+
+.ui.list>a.item{color: #1b1c1d;}
+.ui.list>a.acolor{color: #00b5ad;font-weight: bold;}
